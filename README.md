@@ -32,7 +32,7 @@ Some issues faced in the dataset
  
  To solve this issue an upper limit of 1000 was imposed onto the data set, and a new set **Test set** was created by partitioning the new training set 70:30. 
  
- Hence the new size of training set was 2207 and the size of new test set created was 946. Solving the first problem and somewhat solving the second one too. 
+ Hence the new size of training set was 2207 and the size of new test set created was 946. Solving the second problem and somewhat solving the first one too. 
  
  A Training was planned with using only training and val set (i.e before partitioning) but wasn't completed due to restrictions in time. 
  
