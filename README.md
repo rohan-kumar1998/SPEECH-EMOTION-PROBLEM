@@ -74,6 +74,12 @@ Below are the results obtained, in the form of confusion matrix for val and test
 <img src="https://github.com/rohan-kumar1998/SPEECH-EMOTION-PROBLEM/blob/master/Images/gru_cnn/val.png" width="400"> <img src="https://github.com/rohan-kumar1998/SPEECH-EMOTION-PROBLEM/blob/master/Images/gru_cnn/test.png" width="400">
 
 ### GRU+LSTM Ensemble 
+In the previous setup with used the characteristic of GRU to correctly predict **Happy** (2) class, but as we can see in the confusion matrix, it has proven to be a good at classifying **Neutral** (3) class by correctly predicting **106** and **74** instances in the val and test set respectively. Hence we try one last experiment, by trying to merge the **Neutral** (2) classifying attributes of GRU and the **Happy** (3) classifying characteristics of LSTM, for which the LSTM model correctly classified **25** in the val set and **284** in the test set. 
+
+#### GRU+LSTM Results 
+Below are the results obtained, in the form of confusion matrix for val and test set respectively. 
+
+<img src="https://github.com/rohan-kumar1998/SPEECH-EMOTION-PROBLEM/blob/master/Images/lstm_gru/val.png" width="400"> <img src="https://github.com/rohan-kumar1998/SPEECH-EMOTION-PROBLEM/blob/master/Images/lstm_gru/test.png" width="400">
 
 ## Experiment Setup 
 To maintain a set of uniformity, similar hyperparamters and number of epochs were chosen. Due the lack of time, the number of epochs were limited to 15, and the best performing model (i.e the weights corresponding to minimum validation loss) was saved. Adam optimizer Kingma et Al. was used to update weights, based on a loss calculated by BCEwithlogitsloss in Pytorch, which is the implementation of binary cross-entropy loss + sigmoid. Batch size was taken as 10 and accuracy was used as the metric for model evaluation. The learning rate was fixed as 1e-5 for every model.
