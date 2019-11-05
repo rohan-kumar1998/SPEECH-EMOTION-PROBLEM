@@ -7,7 +7,7 @@
 | Bidirectional GRU      | 80.52 | **82.10** |
 | Bidirectional LSTM      | 83.47      |   **84.00** |
 | CNN      | 83.47      |   **84.00** |
-| GRU+LSTM Ensemble      | 41.92      |   32.553 |
+| GRU+LSTM Ensemble      | 41.92      |   32.55 |
 | GRU+CNN Ensemble  | **84.31**      |    83.57 |
 
 
