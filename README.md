@@ -51,6 +51,10 @@ Even though the LSTM are often considered a more powerful network than GRU, GRUs
 Below are the results obtained, in the form of confusion matrix for val and test set respectively. 
 <img src="https://github.com/rohan-kumar1998/SPEECH-EMOTION-PROBLEM/blob/master/Images/gru/val.png" width="400"> <img src="https://github.com/rohan-kumar1998/SPEECH-EMOTION-PROBLEM/blob/master/Images/gru/test.png" width="400">
 
+#### LSTM Results 
+Below are the results obtained, in the form of confusion matrix for val and test set respectively. 
+<img src="https://github.com/rohan-kumar1998/SPEECH-EMOTION-PROBLEM/blob/master/Images/lstm/val.png" width="400"> <img src="https://github.com/rohan-kumar1998/SPEECH-EMOTION-PROBLEM/blob/master/Images/lstm/test.png" width="400">
+
 ### CNN model
 The major difference between a CNN and a RNN model is the ability of RNN to process the data sequentially, while CNN takes all the data at once. Even though on paper it sounds as if RNN is more human-like in it's data processing, CNN are fairly common in the field of text classification Kim Y. et Al., and hence this model was used in the experiments as well. 
 
