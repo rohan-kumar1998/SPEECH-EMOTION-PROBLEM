@@ -45,6 +45,8 @@ A standard implementation of GRU and LSTM models were done on Pytorch Paszke et 
 #### GRU vs LSTM 
 Due to the addition of a few extra gates in LSTM the number of trainable parameters significantly increase, making the training process fairly slow, hence the GRU model could achieve a better accuracy in limited epoch training.  
 
+##### GRU results
+
 Even though the LSTM are often considered a more powerful network than GRU, GRUs have been seen to outperform LSTMs on a shorter dependency. 
 
 ### CNN model
