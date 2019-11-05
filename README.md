@@ -36,3 +36,6 @@ Some issues faced in the dataset
  
  A Training was planned with using only training and val set (i.e before partitioning) but wasn't completed due to restrictions in time. 
  
+ ## References 
+ Poria, S., Hazarika, D., Majumder, N., Naik, G., Cambria, E., & Mihalcea, R. (2018). Meld: A multimodal multi-party dataset for emotion recognition in conversations. arXiv preprint arXiv:1810.02508.
+ 
