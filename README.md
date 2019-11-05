@@ -27,4 +27,4 @@ The statistics of dataset provided was -
 |Validation set     | 28 | 25 | 181 | 517 | 79 |  830 
 
 Another item
-⋅⋅* Unordered sub-list. 
+ * Unordered sub-list. 
