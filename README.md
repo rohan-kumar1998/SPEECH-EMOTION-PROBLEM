@@ -42,10 +42,23 @@ Some issues faced in the dataset
 ### Bidirectional GRU and LSTM Models 
 A standard implementation of GRU and LSTM models were done on Pytorch Paszke et Al. and as mentioned in the second issue in the dataset subsection, the sequence or dependency length was much too high, and hence these models were used as an experiment based on their varying properties on dependency lengths. 
 
-#### GRU
- 
+#### GRU vs LSTM 
+Due to the addition of a few extra gates in LSTM the number of trainable parameters significantly increase, making the training process fairly slow, hence the GRU model could achieve a better accuracy in limited epoch training.  
+
+Even though the LSTM are often considered a more powerful network than GRU, GRUs have been seen to outperform LSTMs on a shorter dependency. 
+
+### CNN model
+The major difference between a CNN and a RNN model is the ability of RNN to process the data sequentially, while CNN takes all the data at once. Even though on paper it sounds as if RNN is more human-like in it's data processing, CNN are fairly common in the field of text classification Kim Y. et Al., and hence this model was used in the experiments as well. 
+
+### GRU+CNN Ensemble 
+
+### GRU+LSTM Ensemble 
+
  ## References 
  Poria, S., Hazarika, D., Majumder, N., Naik, G., Cambria, E., & Mihalcea, R. (2018). Meld: A multimodal multi-party dataset for emotion recognition in conversations. arXiv preprint arXiv:1810.02508.
  
  Paszke, Adam, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer. "Automatic differentiation in pytorch." (2017).
+ 
+ Kim, Yoon. "Convolutional neural networks for sentence classification." arXiv preprint arXiv:1408.5882 (2014).
+
  
