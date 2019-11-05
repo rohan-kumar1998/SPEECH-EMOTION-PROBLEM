@@ -21,10 +21,10 @@ The dataset used was Multimodal Emotionlines Dataset (MELD) Poria S. et Al. The 
 
 The statistics of dataset provided was - 
 
-| Dataset   |Count of datapoints          
-| ------------- |:-------------:|
-|Training set      | 5147 |
-|Validation set     | 830 |
+| Dataset   |Disgust | Fear | Happy | Neutral | Sad | Total |           
+| ------------- |:-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|
+|Training set      | 232 | 216 | 1609 | 4592 | 705 | 7354 | 
+|Validation set     | 28 | 25 | 181 | 517 | 79 |  830 
 
 Another item
 ⋅⋅* Unordered sub-list. 
