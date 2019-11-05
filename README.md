@@ -26,5 +26,5 @@ The statistics of dataset provided was -
 |Training set      | 5147 |
 |Validation set     | 830 |
 
-2. Another item
+Another item
 ⋅⋅* Unordered sub-list. 
