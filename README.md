@@ -55,7 +55,7 @@ The major difference between a CNN and a RNN model is the ability of RNN to proc
 ### GRU+LSTM Ensemble 
 
 ## Experiment Setup 
-
+To maintain a set of uniformity, similar hyperparamters and number of epochs were chosen. Due the lack of time, the number of epochs were limited to 15, and the best performing model (i.e the weights corresponding to minimum validation loss) was saved. Adam optimizer Kingma et Al. was used to update weights, based on a loss calculated by BCEwithlogitsloss in Pytorch, which is the implementation of binary cross-entropy loss + sigmoid. Batch size was taken as 10 and accuracy was used as the metric for model evaluation. 
 
  ## Conclusion
  A few reasons could be pointed out for not achieving a perfect accuracy - 
@@ -72,5 +72,7 @@ In the future a speaker separation model can be used to filter out the laughter,
  Paszke, Adam, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer. "Automatic differentiation in pytorch." (2017).
  
  Kim, Yoon. "Convolutional neural networks for sentence classification." arXiv preprint arXiv:1408.5882 (2014).
+ 
+ Kingma, Diederik P., and Jimmy Ba. "Adam: A method for stochastic optimization." arXiv preprint arXiv:1412.6980 (2014).
 
  
