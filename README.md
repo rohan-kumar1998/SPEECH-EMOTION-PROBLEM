@@ -45,10 +45,9 @@ A standard implementation of GRU and LSTM models were done on Pytorch Paszke et 
 #### GRU vs LSTM 
 Due to the addition of a few extra gates in LSTM the number of trainable parameters significantly increase, making the training process fairly slow, hence the GRU model could achieve a better accuracy in limited epoch training.  
 
-#### GRU results
-Below 
+Even though the LSTM are often considered a more powerful network than GRU, GRUs have been seen to outperform LSTMs on a shorter dependency.
 
-Even though the LSTM are often considered a more powerful network than GRU, GRUs have been seen to outperform LSTMs on a shorter dependency. 
+#### GRU Results
 
 ### CNN model
 The major difference between a CNN and a RNN model is the ability of RNN to process the data sequentially, while CNN takes all the data at once. Even though on paper it sounds as if RNN is more human-like in it's data processing, CNN are fairly common in the field of text classification Kim Y. et Al., and hence this model was used in the experiments as well. 
