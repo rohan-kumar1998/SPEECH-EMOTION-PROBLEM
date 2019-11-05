@@ -15,3 +15,16 @@
 For each .wav file, a mfcc (Mel-frequency cepstral coefficients) matrix was extracted using the implementation present in torchaudio library. A log (base 2) operator was applied element wise on the mfcc matrix. The nan values corresponding to the negative elements in the matrix were replaced with 0. 
 
 The output dimension of mfcc function in torchaudio library is `[num_channels, n_mfcc, time]` here, number of mfcc features extracted or n_mfcc was taken as 40, while on observation the num_channels was more than 1 (observed was 2). It was then reshaped as `[n_mfcc,time*num_channels]` to be used in the models. 
+
+## Dataset 
+The dataset used was Multimodal Emotionlines Dataset (MELD) Poria S. et Al. The dataset contains instances of dialogue utterances from the tv show 'Friends'.
+
+The statistics of dataset provided was - 
+
+| Dataset   |Count of datapoints          
+| ------------- |:-------------:|
+|Training set      | 5147 |
+|Validation set     | 830 |
+
+2. Another item
+⋅⋅* Unordered sub-list. 
