@@ -8,7 +8,7 @@
 | Bidirectional LSTM      | 6.26      |   31.59 |
 | CNN      | 33.61      |   34.14 |
 | GRU+LSTM Ensemble      | 41.92      |   32.55 |
-| GRU+CNN Ensemble  | **84.31**      |    83.57 |
+| GRU+CNN Ensemble  | **56.98**      |    **34.68** |
 
 
 ## Features 
