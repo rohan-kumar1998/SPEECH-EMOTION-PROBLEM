@@ -36,6 +36,16 @@ Some issues faced in the dataset
  
  A Training was planned with using only training and val set (i.e before partitioning) but wasn't completed due to restrictions in time. 
  
+## Model Architecture 
+ A set of 5 models were used to experiment on the dataset. Trying to determine what the one model is learning which the other model is ignoring, and ensembling them to create a model to captures them both. This was done to determine which model is best suited for the emotion detection task. 
+
+### Bidirectional GRU and LSTM Models 
+A standard implementation of GRU and LSTM models were done on Pytorch Paszke et Al. and as mentioned in the second issue in the dataset subsection, the sequence or dependency length was much too high, and hence these models were used as an experiment based on their varying properties on dependency lengths. 
+
+#### GRU
+ 
  ## References 
  Poria, S., Hazarika, D., Majumder, N., Naik, G., Cambria, E., & Mihalcea, R. (2018). Meld: A multimodal multi-party dataset for emotion recognition in conversations. arXiv preprint arXiv:1810.02508.
+ 
+ Paszke, Adam, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer. "Automatic differentiation in pytorch." (2017).
  
