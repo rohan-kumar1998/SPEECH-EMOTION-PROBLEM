@@ -55,10 +55,12 @@ The major difference between a CNN and a RNN model is the ability of RNN to proc
 ### GRU+LSTM Ensemble 
 
  ## Conclusion
- A few reasons could be pointed out for not achieving a perfect accuracy, some can be pointed out as 
+ A few reasons could be pointed out for not achieving a perfect accuracy - 
   *  The dataset even after augmentation was still unbalanced, 216 datapoints in the least dense class (Fear) vs 1000 datapoints in the most dense class (Neutral).
   *  The data, even though classified into different classes were similar in nature as tested via human-evaluation. The similarity lied in the recorded laughter present in the audio clips. 
   *  Even though not confirmed, there could be noise present in the data as well.
+  
+In the future a speaker separation model can be used to filter out the laughter, to further boost the accuracy, or a model could be trained to isolate the semantics of the spoken words, which would also contain the nature of emotion the speaker is in. 
  
 
  ## References 
