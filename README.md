@@ -34,7 +34,7 @@ Some issues faced in the dataset
  
  Hence the new size of training set was 2207 and the size of new test set created was 946. Solving the second problem and somewhat solving the first one too. 
  
- A Training was planned with using only training and val set (i.e before partitioning) but wasn't completed due to restrictions in time. 
+ *A Training was planned with using only training and val set (i.e before partitioning) but wasn't completed due to restrictions in time.* 
  
 ## Model Architecture 
  A set of 5 models were used to experiment on the dataset. Trying to determine what the one model is learning which the other model is ignoring, and ensembling them to create a model to captures them both. This was done to determine which model is best suited for the emotion detection task. 
