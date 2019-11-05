@@ -66,7 +66,7 @@ Below are the results obtained, in the form of confusion matrix for val and test
 <img src="https://github.com/rohan-kumar1998/SPEECH-EMOTION-PROBLEM/blob/master/Images/cnn/val.png" width="400"> <img src="https://github.com/rohan-kumar1998/SPEECH-EMOTION-PROBLEM/blob/master/Images/cnn/test.png" width="400">
 
 ### GRU+CNN Ensemble 
-From the results obtained above, the CNN model can predict the **Neutral** (3) class very well, as shown in the confusion matrix by correctly classifying **258** instances in the val set and **174** instances in the test set. The GRU model can predict **Happy** (2) class very well as shown in the confusion matrix by correctly classifying **411** instances in the val set and **258** instances in the test set. We aim to create a model that can capture these attributes of GRU and CNN models by ensembling them together. 
+From the results obtained above, the CNN model can predict the **Neutral** (3) class very well, as shown in the confusion matrix by correctly classifying **258** instances in the val set and **174** instances in the test set. The GRU model can predict **Happy** (2) class very well as shown in the confusion matrix by correctly classifying **22** instances in the val set and **238** instances in the test set. We aim to create a model that can capture these attributes of GRU and CNN models by ensembling them together. 
 
 #### GRU+CNN Ensemble Results 
 Below are the results obtained, in the form of confusion matrix for val and test set respectively. 
