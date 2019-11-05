@@ -9,3 +9,9 @@
 | CNN      | 83.47      |   **84.00** |
 | GRU+LSTM Ensemble      | 83.47      |   **84.00** |
 | GRU+CNN Ensemble  | **84.31**      |    83.57 |
+
+
+## Features 
+For each .wav file, a mfcc (Mel-frequency cepstral coefficients) matrix was extracted using the implementation present in torchaudio library. A log (base 2) operator was applied element wise on the mfcc matrix. The nan values corresponding to the negative elements in the matrix were replaced with 0. 
+
+The output dimension of mfcc function in torchaudio library is `[num_channels, n_mfcc, time]` here, number of mfcc features extracted or n_mfcc was taken as 40, while on observation the num_channels was more than 1 (observed was 2). It was then reshaped as `[n_mfcc,time*num_channels]` to be used in the models. 
