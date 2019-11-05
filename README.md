@@ -5,7 +5,7 @@
 | Models        |Validation set          | Test set  |
 | ------------- |:-------------:| -----:|
 | Bidirectional GRU      | 15.42 | 33.19 |
-| Bidirectional LSTM      | 83.47      |   **84.00** |
+| Bidirectional LSTM      | 6.26      |   31.59 |
 | CNN      | 83.47      |   **84.00** |
 | GRU+LSTM Ensemble      | 41.92      |   32.55 |
 | GRU+CNN Ensemble  | **84.31**      |    83.57 |
