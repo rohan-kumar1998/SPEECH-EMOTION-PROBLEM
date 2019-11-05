@@ -85,6 +85,8 @@ Below are the results obtained, in the form of confusion matrix for val and test
 To maintain a set of uniformity, similar hyperparamters and number of epochs were chosen. Due the lack of time, the number of epochs were limited to 15, and the best performing model (i.e the weights corresponding to minimum validation loss) was saved. Adam optimizer Kingma et Al. was used to update weights, based on a loss calculated by BCEwithlogitsloss in Pytorch, which is the implementation of binary cross-entropy loss + sigmoid. Batch size was taken as 10 and accuracy was used as the metric for model evaluation. The learning rate was fixed as 1e-5 for every model.
 
  ## Conclusion
+ We achieved the highest accuracy of **56.98** in the val set and **34.68** in the test set, in the GRU+CNN Ensemble model. Even though this figure was fairly higher than the other results obtained, we still have to consider the results obtained by GRU+LSTM Ensemble model, as the former proved excellent in classifying **Neutral** class, it had a subpar result in classifying the **Happy** class. GRU+LSTM model on the other hand at a more *balanced* outcome having non-zero correct predictions for 4 out 5 classes in the val set. 
+ 
  A few reasons could be pointed out for not achieving a perfect accuracy - 
   *  The dataset even after augmentation was still unbalanced, 216 datapoints in the least dense class (Fear) vs 1000 datapoints in the most dense class (Neutral).
   *  The data, even though classified into different classes were similar in nature as tested via human-evaluation. The similarity lied in the recorded laughter present in the audio clips. 
