@@ -4,7 +4,7 @@
 
 | Models        |Validation set          | Test set  |
 | ------------- |:-------------:| -----:|
-| Bidirectional GRU      | 80.52 | **82.10** |
+| Bidirectional GRU      | 15.42 | 33.191 |
 | Bidirectional LSTM      | 83.47      |   **84.00** |
 | CNN      | 83.47      |   **84.00** |
 | GRU+LSTM Ensemble      | 41.92      |   32.55 |
@@ -53,6 +53,9 @@ The major difference between a CNN and a RNN model is the ability of RNN to proc
 ### GRU+CNN Ensemble 
 
 ### GRU+LSTM Ensemble 
+
+## Experiment Setup 
+
 
  ## Conclusion
  A few reasons could be pointed out for not achieving a perfect accuracy - 
