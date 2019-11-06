@@ -19,9 +19,6 @@
 
 *Even though the GRU+CNN model outperformed every other model, main.py contains an instance of GRU+LSTM model, which proved to have a higher bandwidth of output prediction* 
 
-## Overview
-Emotion detection in Speech 
-
 ## Features 
 For each .wav file, a mfcc (Mel-frequency cepstral coefficients) matrix was extracted using the implementation present in torchaudio library. A log (base 2) operator was applied element wise on the mfcc matrix. The nan values corresponding to the negative elements in the matrix were replaced with 0. 
 
