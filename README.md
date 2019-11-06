@@ -81,7 +81,7 @@ Below are the results obtained, in the form of confusion matrix for val and test
 <img src="https://github.com/rohan-kumar1998/SPEECH-EMOTION-PROBLEM/blob/master/Images/gru_cnn/val.png" width="400"> <img src="https://github.com/rohan-kumar1998/SPEECH-EMOTION-PROBLEM/blob/master/Images/gru_cnn/test.png" width="400">
 
 ### GRU+LSTM Ensemble 
-In the previous setup with used the characteristic of GRU to correctly predict **Happy** (2) class, but as we can see in the confusion matrix, it has proven to be a good at classifying **Neutral** (3) class by correctly predicting **106** and **74** instances in the val and test set respectively. Hence we try one last experiment, by trying to merge the **Neutral** (2) classifying attributes of GRU and the **Happy** (3) classifying characteristics of LSTM, for which the LSTM model correctly classified **25** in the val set and **284** in the test set. 
+In the previous setup with used the characteristic of GRU to correctly predict **Happy** (2) class, but as we can see in the confusion matrix, it has proven to be a good at classifying **Neutral** (3) class by correctly predicting **106** and **74** instances in the val and test set respectively. Hence we try one last experiment, by trying to merge the **Neutral** (3) classifying attributes of GRU and the **Happy** (2) classifying characteristics of LSTM, for which the LSTM model correctly classified **25** in the val set and **284** in the test set. 
 
 #### GRU+LSTM Results 
 Below are the results obtained, in the form of confusion matrix for val and test set respectively. 
