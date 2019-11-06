@@ -1,5 +1,10 @@
 # SPEECH-EMOTION-PROBLEM
-
+## Useage 
+ 1. Clone the repository on your system
+ 2. Run either main_cpu.py or main.py depending on the availability of CUDA. If CUDA is available use main.py else, use main_cpu.py 
+ 3. The code doesn't take command line input, instead it will prompt you to input the address of test_folder.
+ 4. The code takes in the final test directory, as in, inside the test folder on .wav files should be present. 
+  
 ## Results
 
 | Models        |Validation set          | Test set  |
