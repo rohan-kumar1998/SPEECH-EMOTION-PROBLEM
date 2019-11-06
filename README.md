@@ -1,5 +1,5 @@
 # SPEECH-EMOTION-PROBLEM
-## Useage 
+## Usage 
  1. Clone the repository on your system
  2. Create a virtual env
  3. Install the requirements using the requirements.txt
