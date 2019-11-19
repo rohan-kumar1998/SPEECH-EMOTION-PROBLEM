@@ -1,4 +1,4 @@
-# SPEECH-EMOTION-PROBLEM
+# Detecting Emotion in Speech
 ## Usage 
  1. Clone the repository on your system
  2. Create a virtual env
