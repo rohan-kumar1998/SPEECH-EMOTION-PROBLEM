@@ -17,7 +17,7 @@ botocore==1.12.71
 Brlapi==0.6.7
 bs4==0.0.1
 bz2file==0.98
-certifi==2018.11.29
+certifi==2022.12.7
 cffi==1.11.5
 chardet==3.0.4
 Click==7.0
